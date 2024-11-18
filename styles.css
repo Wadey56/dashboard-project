@@ -41,6 +41,18 @@ text-wrap: balance;
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    display: grid;
+    gap: 1rem;
+}
+
+.sidebar-list {
+    padding: 0px;
+}
+
+.sidebar-list-item {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .content {
