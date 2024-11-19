@@ -31,11 +31,24 @@ text-wrap: balance;
 
 * {
     border: 1px solid black;
+}
 
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 1fr 3fr;
 }
 
 .header {
     grid-column: 2 / -1;
+}
+
+.header-top-section {
+    display: flex;
+}
+
+.header-bottom-section {
+    display: flex;
 }
 
 .sidebar {
@@ -59,12 +72,6 @@ text-wrap: balance;
     grid-column: 2 / -1;
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
-
-.main-grid {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-auto-rows: 1fr 3fr;
 }
 
 .project-wrapper {
