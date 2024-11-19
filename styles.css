@@ -79,6 +79,11 @@ text-wrap: balance;
     grid-row: 1 / 3;
 }
 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 .announcements-wrapper {
     grid-column: 2 / 3;
 }
