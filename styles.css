@@ -36,18 +36,28 @@ text-wrap: balance;
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    height: 100vh;
 }
 
 .header {
     grid-column: 2 / -1;
 }
 
-.header-top-section {
+.header-top-section, .header-bottom-section {
     display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
 }
 
-.header-bottom-section {
-    display: flex;
+.header input {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 50%;
+    height: 1.8rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    background-color: #e2e8f0;
 }
 
 .sidebar {
@@ -69,12 +79,15 @@ text-wrap: balance;
     color: white;
 }
 
-.sidebar-icon {
+.sidebar-icon, .header-icon {
     height: 1.5rem;
     width: 1.5rem;
     align-self: center;
     justify-self: center;
-    filter: invert(100%);
+}
+
+.sidebar-icon {
+    filter: invert(1);
 }
 
 .content {
