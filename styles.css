@@ -120,8 +120,19 @@ text-wrap: balance;
     padding: 1rem;
 }
 
-.announcements-wrapper {
+.announcement-wrapper {
     grid-column: 2 / 3;
+}
+
+.announcement-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+hr {
+    margin: 1rem;
 }
 
 .trending-wrapper {
