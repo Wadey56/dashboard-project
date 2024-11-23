@@ -57,7 +57,11 @@ text-wrap: balance;
     height: 1.8rem;
     padding-left: 1rem;
     margin-right: auto;
-    background-color: #e2e8f0;
+    background-color: #f3f4f6;
+}
+
+.greeting-wrapper {
+    margin-right: auto;
 }
 
 .sidebar {
@@ -94,6 +98,8 @@ text-wrap: balance;
     grid-column: 2 / -1;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background-color: #f3f4f6;
+    padding: 1rem;
 }
 
 .project-wrapper {
