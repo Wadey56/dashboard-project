@@ -124,7 +124,7 @@ text-wrap: balance;
     grid-column: 2 / 3;
 }
 
-.announcement-card {
+.announcement-card, .trending-card {
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
@@ -137,4 +137,13 @@ hr {
 
 .trending-wrapper {
     grid-column: 2 / 3;
+}
+
+.avatar-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.trending-avatar {
+    grid-row: 1 / 3;
 }
