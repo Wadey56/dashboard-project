@@ -109,7 +109,15 @@ text-wrap: balance;
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 .announcements-wrapper {
