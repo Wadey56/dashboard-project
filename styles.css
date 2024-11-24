@@ -39,6 +39,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     grid-column: 2 / -1;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .header-top-section, .header-bottom-section {
@@ -49,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header input {
+    border: none;
     border-radius: 2rem;
     padding: 0.5rem;
     width: 50%;
@@ -56,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 1rem;
     margin-right: auto;
     background-color: #f3f4f6;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .greeting-wrapper {
@@ -151,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem;
     border-left: orange 0.5rem solid;
     padding: 1.2rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project-card-buttons {
@@ -172,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 hr {
@@ -187,6 +194,10 @@ hr {
     display: grid;
     grid-template-columns: 1fr 3fr;
     padding: 1rem 0;
+}
+
+.trending-card {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .trending-avatar {
